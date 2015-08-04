@@ -1,0 +1,37 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans|Montserrat);
+
+body {
+	background-image: url('background.png');
+	background-attachment: fixed;
+}
+
+.header {
+	color: #FFF;
+	display: block;
+	position: fixed;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.twitter-tweet {
+  display: block;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 16px;
+  border-color: #eee #ddd #bbb;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+  margin: auto;
+  padding: 0 16px 16px 16px;
+  max-width: 468px;
+  background-color: #FFF;
+}
+
+#logo {
+	max-height: 50px;
+	max-width: 50px;
+	width: auto;
+	height: auto;
+}
